@@ -1,0 +1,11 @@
+{
+    "name": "MBFC Info banner",
+    "version": "1.0.0",
+    "description": "Provides data about the source you're reading from mediabiasfactcheck.com",
+    "manifest_version": 3,
+    "author": "Nicholas Lediet",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Media Bias/Fact Check Data"
+    }
+}
