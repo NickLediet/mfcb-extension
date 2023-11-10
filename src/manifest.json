@@ -4,9 +4,13 @@
     "description": "Provides data about the source you're reading from mediabiasfactcheck.com",
     "manifest_version": 3,
     "author": "Nicholas Lediet",
-    "permissions": ["scripting", "activeTab"],
+    "permissions": ["scripting", "activeTab", "web_accessible_resources"],
     "action":{
         "default_popup": "index.html",
         "default_title": "Media Bias/Fact Check Data"
-    }
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["index.js"]
+    }]
 }
