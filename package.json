@@ -4,7 +4,9 @@
   "description": "A browser extension that injects mediabiasfactcheck.com data into the top of an article with questionable accuracy. ",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,11 @@
   },
   "homepage": "https://github.com/NickLediet/mfcb-extension#readme",
   "dependencies": {
-    "lit": "^3.0.2"
+    "@types/chrome": "^0.0.251",
+    "lit": "^2.7.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
   }
 }
