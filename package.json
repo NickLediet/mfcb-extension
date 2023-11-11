@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "A browser extension that injects mediabiasfactcheck.com data into the top of an article with questionable accuracy. ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest"
+    "dev": "vite",
+    "build": "sh build.sh",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/NickLediet/mfcb-extension/issues"
   },
-  "homepage": "https://github.com/NickLediet/mfcb-extension#readme"
+  "homepage": "https://github.com/NickLediet/mfcb-extension#readme",
+  "dependencies": {
+    "@types/chrome": "^0.0.251",
+    "js-string-escape": "^1.0.1",
+    "lit": "^2.7.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
 }
