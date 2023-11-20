@@ -6,7 +6,7 @@
     "author": "Nicholas Lediet",
     "permissions": ["scripting", "activeTab", "web_accessible_resources"],
     "action":{
-        "default_popup": "index.html",
+        "default_popup": "popup.html",
         "default_title": "Media Bias/Fact Check Data"
     },
     "content_scripts": [{
