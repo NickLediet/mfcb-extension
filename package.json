@@ -1,5 +1,5 @@
 {
-  "name": "mfcb-extension",
+  "name": "mbfc-extension",
   "version": "1.0.0",
   "description": "A browser extension that injects mediabiasfactcheck.com data into the top of an article with questionable accuracy. ",
   "main": "index.js",
